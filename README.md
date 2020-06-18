@@ -1,6 +1,17 @@
-<h1 align="center"> Nodepop 👋</h1>
+<h1 align="center"> Deployment of servers with my practice of WEB-API/Node.js/MongoDB and React Project - KeepCoding👋</h1>
 
-### Practice WEB-API/Node.js/MongoDB - KeepCoding
+## DevOps
+
+To access the backend and its functions we use DNS:
+
+* Public DNS AWS **ec2-18-219-54-142.us-east-2.compute.amazonaws.com**
+
+To access the frontend of my project of react fundamentals, we use the server IP:
+
+* Public IP **18.219.54.142**
+
+
+## Practice WEB-API/Node.js/MongoDB
 
 ## Description
 
@@ -12,7 +23,6 @@
 * npm >= 6.12.1
 * MongoDB
 * Git
-
 
 ## Install
 
@@ -26,6 +36,12 @@ npm install
 
 ```sh
  npm run install-db
+```
+
+## Start the app in production enviroment, port 3000. It runs with Node.
+
+```sh
+npm start
 ```
 
 ## Start the app in development enviroment, port 3000. It runs with Nodemon.
